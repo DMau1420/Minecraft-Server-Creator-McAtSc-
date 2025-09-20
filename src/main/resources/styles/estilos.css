@@ -1,0 +1,98 @@
+.boton-personalizado{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 8 15;
+    -fx-alignment: center;
+}
+
+.boton-personalizado:hover {
+    -fx-background-color: linear-gradient(from 0% 100% to 100% 0%, #63b1d0, #4a4a4a);
+    -fx-effect: dropshadow(three-pass-box, #63b1d0aa, 10, 0.3, 0, 2);
+}
+
+.boton-aceptar{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 8 15;
+    -fx-alignment: center;
+}
+.boton-aceptar:hover {
+    -fx-background-color: linear-gradient(from 0% 100% to 100% 0%, #63d09a, #4a4a4a);
+    -fx-effect: dropshadow(three-pass-box, rgba(99, 208, 199, 0.67), 10, 0.3, 0, 2);
+}
+
+.fondo{
+    -fx-background-color: #2D2D2D;
+}
+
+.caja-click{
+    -fx-border-width: 2;
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: #FFFFFF;
+}
+
+.caja-click:hover{
+    -fx-background-color: #63b1d0aa;
+    -fx-border-color: #03c0ea;
+    -fx-scale-x: 1.07;
+    -fx-scale-y: 1.07;
+}
+.caja-click .texto {
+    -fx-text-fill: rgba(55, 183, 179, 0.89) !important;
+    -fx-font-weight: bold;
+}
+
+.caja-click-seleccionada {
+    -fx-background-color: #63d09aaa;
+    -fx-border-color: #63d09a;
+    -fx-scale-x: 1.07;
+    -fx-scale-y: 1.07;
+}
+
+.texto {
+    -fx-text-fill: #FFFFFF; /* Texto normal sobre fondo oscuro */
+    -fx-font-size: 13px;
+}
+
+.texto-area {
+    -fx-text-fill: #FFFFFF;
+    -fx-control-inner-background: #4a4a4a; /* Fondo interno */
+    -fx-highlight-fill: #63b1d0;
+    -fx-highlight-text-fill: black;
+    -fx-font-size: 13px;
+    -fx-padding: 5 10;
+}
+
+.combobox-perso {
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #63b1d0;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.combobox-perso .arrow-button {
+    -fx-background-color: #63b1d0;
+    -fx-background-radius: 0 4 4 0;
+}
+
+.combobox-perso .arrow {
+    -fx-background-color: white;
+}
+
+.combobox-perso .list-cell {
+    -fx-background-color: #4a4a4a;
+    -fx-text-fill: white;
+}
+
+.combobox-perso .list-cell:hover {
+    -fx-background-color: #63b1d0aa;
+    -fx-text-fill: black;
+}
+
