@@ -157,7 +157,7 @@ public class CreateServerMenu {
 
         crear.setOnAction(e -> {
             //ruta de la carpeta servidor y creacion de carpeta de servidor
-            String ruta = System.getProperty("user.home") + File.separator + "McatSc" + File.separator + nombreServer.getText();
+            String ruta = System.getProperty("user.home") + File.separator + "McatSc" + File.separator + "Servers" + File.separator + nombreServer.getText();
             File server = new File(ruta);
 
             //verificacion de existencia y advertencia de si ya existe

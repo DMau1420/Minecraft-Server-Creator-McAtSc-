@@ -13,10 +13,18 @@ public class Main  extends Application {
         //obtencion de carpeta usuarios
         String rutaApp = System.getProperty("user.home") + File.separator + "McatSc";
         File carpetaPrincipal = new File(rutaApp);
+        File carpetaServer = new File(rutaApp + File.separator + "Servers");
+        File carpetaRecursos =  new File(rutaApp + File.separator + "recursos");
 
         //verificar si existe la carpeta, sino la creamos
         if(!carpetaPrincipal.exists()){
             boolean crear = carpetaPrincipal.mkdir();
+        }
+        if(!carpetaServer.exists()){
+            boolean crearServer = carpetaServer.mkdir();
+        }
+        if(!carpetaRecursos.exists()){
+            boolean crearServer = carpetaServer.mkdir();
         }
 
         //instanciamos la stage
